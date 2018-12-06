@@ -1,0 +1,15 @@
+<templateSet group="html/xml">
+  <template name="div.class" value="&lt;$VAR0$ class=&quot;$VAR1$&quot;&gt;&#10;    &#10;&lt;/$VAR0$&gt;" description="div.class" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+    </context>
+  </template>
+  <template name=".class" value="&lt;div class=&quot;$VAR0$&quot;&gt;&#10;    &#10;&lt;/div&gt;" description="div.class" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+    </context>
+  </template>
+</templateSet>
