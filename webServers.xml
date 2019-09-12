@@ -4,6 +4,14 @@
       <webServer id="1ec258a7-c2c3-4d9d-a439-aa44304a1298" name="calendar view" url="http://localhost">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
+      <webServer id="adc7910b-08d1-4e6b-959b-22e811cddb52" name="dev777" url="http://77.120.117.116">
+        <fileTransfer host="77.120.117.116" port="8022" rootFolder="/var/www/html/fresh.590.ua/public/assets/js" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="8022" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
